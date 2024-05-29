@@ -13,7 +13,7 @@
       "
     >
       <canvas
-        width="850"
+        width="750"
         height="300"
         id="canvas"
         style="rotate: 30deg"
@@ -73,7 +73,7 @@
 
       loadFonts().then(() => {
         const canvas = document.getElementById("canvas");
-        const pmap = renderTextToPixelList("200px PlaypenSans", "Đ<3T", canvas);
+        const pmap = renderTextToPixelList("160px PlaypenSans", "Đ<3T", canvas);
         canvas.width = canvas.width + 0; // clear canvas
 
         const context = canvas.getContext("2d");
